@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Models\Marketing\Campaign;
+
+use App\Models\Marketing\Campaign;
+use App\Models\Marketing\Segment\SegmentGroup;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class CampaignSegment extends Model
+{
+    use HasFactory;
+    protected $connection = 'mysql_marketing';
+
+    protected $fillable = [
+      'campaign_id',
+      'segment_group_id',
+      'shop_id'
+    ];
+
+    public function campaign()
+    {
+        return $this->belongsTo(Campaign::class, 'campaign_id', 'id');
+    }
+
+    public function segment()
+    {
+        return $this->belongsTo(SegmentGroup::class, 'segment_group_id', 'id');
+    }
+}

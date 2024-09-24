@@ -1,0 +1,57 @@
+tabContainer {
+    width: 100%;
+}
+
+tabContent {
+    width: 100%;
+}
+
+link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--mantine-font-size-sm);
+    cursor: pointer;
+    background: '#000';
+
+    /* [theme.fn.smallerThan('sm')]: {
+        height: rem(42),
+        display: 'flex',
+        alignItems: 'center',
+        width: '100%',
+    }
+
+    ...theme.fn.hover({
+        textDecoration: 'underline',
+    }), */
+}
+
+.linkMobile {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: var(--mantine-font-size-sm);
+    background: #000;
+
+    /* [theme.fn.smallerThan('sm')]: {
+        height: rem(42),
+        display: 'flex',
+        alignItems: 'center',
+        width: '100%',
+    } */
+
+    &:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+}

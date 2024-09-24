@@ -1,0 +1,50 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "postcss-preset-mantine": "^1.11.0",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.0",
+        "@inertiajs/react": "^1.0.7",
+        "@leenguyen/react-flip-clock-countdown": "^1.4.1",
+        "@mantine/carousel": "^7.2.2",
+        "@mantine/charts": "^7.6.1",
+        "@mantine/core": "^7.2.2",
+        "@mantine/dates": "^7.3.0",
+        "@mantine/dropzone": "^7.2.2",
+        "@mantine/form": "^7.2.2",
+        "@mantine/hooks": "^7.2.2",
+        "@mantine/modals": "^7.2.2",
+        "@mantine/notifications": "^7.3.0",
+        "@mantine/nprogress": "^7.2.2",
+        "@mantine/prism": "^6.0.21",
+        "@mantine/spotlight": "^7.5.2",
+        "@mantine/tiptap": "^7.2.2",
+        "@reduxjs/toolkit": "^1.9.5",
+        "@tabler/icons-react": "^2.20.0",
+        "@tiptap/extension-link": "^2.0.3",
+        "@tiptap/react": "^2.0.3",
+        "@tiptap/starter-kit": "^2.0.3",
+        "@types/react-dom": "^18.2.4",
+        "@vitejs/plugin-react": "^4.0.0",
+        "dayjs": "^1.11.7",
+        "embla-carousel-autoplay": "^8.0.0-rc14",
+        "embla-carousel-react": "^8.0.0-rc05",
+        "hyper-blink": "^1.1.2",
+        "moment": "^2.29.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-player": "^2.13.0",
+        "react-redux": "^8.1.0",
+        "react-to-print": "^2.15.1",
+        "recharts": "^2.12.1",
+        "redux-persist": "^6.0.0"
+    }
+}

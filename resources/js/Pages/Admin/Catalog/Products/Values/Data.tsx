@@ -1,0 +1,15 @@
+export const links = [
+    { label: 'Information', link: '#info', order: 1 },
+    { label: 'Prices', link: '#price', order: 1 },
+    { label: 'SEO', link: '#seo', order: 1 },
+    // { label: 'Associtations', link: '#associtation', order: 1 },
+    { label: 'Shipping', link: '#shipping', order: 1 },
+    // { label: 'Combinations', link: '#combination', order: 1 },
+    // { label: 'Quantities', link: '#quantities', order: 1 },
+    // { label: 'Vitual Product', link: '#virtual', order: 1 },
+    // { label: 'Images', link: '#image', order: 1 },
+    // { label: 'Feactures', link: '#feactures', order: 1 },
+    // { label: 'Customization', link: '#customization', order: 1 },
+    // { label: 'Attachments', link: '#attach', order: 1 },
+    // { label: 'Supplier', link: '#supplier', order: 1 },
+];

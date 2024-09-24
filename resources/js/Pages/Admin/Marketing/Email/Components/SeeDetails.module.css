@@ -1,0 +1,6 @@
+.lineDot {
+    border-bottom-style: dotted;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #858e9f;
+    flex-grow: 1;
+}

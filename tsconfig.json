@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "types": [
+            "vite/client"
+        ],
+        "allowJs": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "jsx": "react-jsx",
+        "strict": true,
+        "isolatedModules": true,
+        "target": "ESNext",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "paths": {
+            "@/*": [
+                "./resources/js/*"
+            ],
+            "@features/*": [
+                "./resources/js/features/*"
+            ],
+            "@components/*": [
+                "./resources/js/components/*"
+            ]
+        }
+    },
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.tsx",
+        "resources/js/**/*.d.ts"
+    ]
+}

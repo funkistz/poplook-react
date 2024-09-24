@@ -1,0 +1,1 @@
+export { default as TableSettlement } from "./table-settlement";

@@ -1,0 +1,26 @@
+services:
+  php:
+    build: docker/poplook-v2-php
+    environment:
+      - PHP_UID=$PHP_UID
+      - PHP_GID=$PHP_GID
+    depends_on:
+      - memcached
+    volumes:
+      - poplook-v2-laravel:/poplook-v2-laravel
+    restart: always
+  nginx:
+    build: docker/poplook-nginx
+    ports:
+      - 8080:80
+    depends_on:
+      - php
+    volumes:
+      - poplook-v2-laravel:/poplook-v2-laravel
+    restart: always
+  memcached:
+    image: memcached:1.6-alpine
+    restart: always
+volumes:
+  poplook-v2-laravel:
+    external: true

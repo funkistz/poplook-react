@@ -1,0 +1,21 @@
+.paper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.paperSelected {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-width: 5;
+    border: 1px solid #199d42 !important;
+}
+
+.box {
+    cursor: pointer,
+}
